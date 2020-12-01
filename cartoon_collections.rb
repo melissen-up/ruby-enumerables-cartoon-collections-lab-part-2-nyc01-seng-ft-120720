@@ -18,6 +18,7 @@ def long_planeteer_calls(planeteer_calls)
   
   planeteer_calls.each do |element|
     element >= 5
+  end
 end
 
 def find_valid_calls(planeteer_calls)
