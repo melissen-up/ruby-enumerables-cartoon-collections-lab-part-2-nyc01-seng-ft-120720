@@ -17,7 +17,7 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
   
   planeteer_calls.each do |element|
-    element.length? >= 5
+    element.length >= 5
   end
 end
 
